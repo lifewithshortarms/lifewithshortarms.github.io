@@ -3,7 +3,6 @@ const markdownItAnchor = require("markdown-it-anchor");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
@@ -16,7 +15,6 @@ module.exports = function(eleventyConfig) {
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig.addPassthroughCopy({
 		"./public/": "/",
-		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
 	});
 
 	// Run Eleventy when these files change:
@@ -36,7 +34,6 @@ module.exports = function(eleventyConfig) {
 	});
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-	eleventyConfig.addPlugin(pluginBundle);
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
