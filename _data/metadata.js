@@ -1,5 +1,5 @@
 module.exports = {
-	title: "Lifewithshortarms",
+	title: "Life with Short Arms",
 	url: "https://lifewithshortarms.com/",
 	language: "en",
 	description: "Christen's mission is clear: to inspire, educate, and advocate for accessibility, diversity, and inclusion on global platforms.  With a website as the landing page for all information, this will be the hub of all outreach.",
