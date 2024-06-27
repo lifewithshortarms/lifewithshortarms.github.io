@@ -22,17 +22,27 @@
 	</url>
 	
 	<url>
-		<loc>https://lifewithshortarms.com/about/</loc>
+		<loc>https://lifewithshortarms.com/pages/about-me/</loc>
 		<lastmod>2024-06-27</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://lifewithshortarms.com/blog/</loc>
+		<loc>https://lifewithshortarms.com/pages/blog/</loc>
+		<lastmod>2024-06-27</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://lifewithshortarms.com/pages/contact/</loc>
 		<lastmod>2024-06-27</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://lifewithshortarms.com/</loc>
+		<lastmod>2024-06-27</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://lifewithshortarms.com/pages/media/</loc>
 		<lastmod>2024-06-27</lastmod>
 	</url>
 	
