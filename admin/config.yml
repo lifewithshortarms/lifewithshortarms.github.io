@@ -37,7 +37,6 @@ collections:
     i18n: true
     fields:
       - { label: "Title (required)", name: "title", widget: "string", i18n: true }
-      - { label: "Description", name: "description", widget: "markdown", i18n: true }
-      - { label: "Other Language Link", name: "otherLangLink", widget: "string", i18n: true }
+      - { label: "Description (required)", name: "description", widget: "markdown", i18n: true }
       - { label: "File", name: "file", widget: "file", i18n: true, required: false, media_library: { config: { multiple: true } } }
-      - { label: "Details (required)", name: "body", widget: "markdown",  i18n: true }
+      - { label: "Body (required)", name: "body", widget: "markdown",  i18n: true }
