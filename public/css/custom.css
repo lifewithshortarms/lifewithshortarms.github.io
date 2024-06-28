@@ -1,0 +1,16 @@
+.nav-link {
+	transition: all 0.3s ease;
+	/* Smooth transition for all properties */
+}
+
+.nav-link:hover,
+.nav-link.active {
+	background-color: #ff69b4;
+	/* Hot pink background */
+	color: #fff;
+	/* White text */
+	transform: scale(1.1);
+	/* Scale up the link */
+	box-shadow: 0 0 10px #ff69b4;
+	/* Hot pink glowing effect */
+}
