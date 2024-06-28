@@ -52,22 +52,22 @@
 	</url>
 	
 	<url>
-		<loc>https://lifewithshortarms.com/tags/second-tag/</loc>
-		<lastmod>2024-06-28</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://lifewithshortarms.com/tags/posts-with-two-tags/</loc>
-		<lastmod>2024-06-28</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://lifewithshortarms.com/tags/another-tag/</loc>
 		<lastmod>2024-06-28</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://lifewithshortarms.com/tags/number-2/</loc>
+		<lastmod>2024-06-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://lifewithshortarms.com/tags/second-tag/</loc>
+		<lastmod>2024-06-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://lifewithshortarms.com/tags/posts-with-two-tags/</loc>
 		<lastmod>2024-06-28</lastmod>
 	</url>
 </urlset>
