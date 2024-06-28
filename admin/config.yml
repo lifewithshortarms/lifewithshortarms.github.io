@@ -32,11 +32,22 @@ collections:
     label: "Pages"
     folder: "content/pages"
     create: true
-    identifier_field: "title"
     slug: "{{slug}}"
-    i18n: true
     fields:
-      - { label: "Title (required)", name: "title", widget: "string", i18n: true }
-      - { label: "Description (required)", name: "description", widget: "markdown", i18n: true }
-      - { label: "File", name: "file", widget: "file", i18n: true, required: false, media_library: { config: { multiple: true } } }
-      - { label: "Body (required)", name: "body", widget: "markdown",  i18n: true }
+      - { label: "Title (required)", name: "title", widget: "string" }
+      - { label: "Description (required)", name: "description", widget: "markdown" }
+      - { label: "File", name: "file", widget: "file", required: false, media_library: { config: { multiple: true } } }
+      - { label: "Body (required)", name: "body", widget: "markdown" }
+
+  - name: "media"
+    label: "Media"
+    folder: "content/media"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title (required)", name: "title", widget: "string" }
+      - { label: "Description (required)", name: "description", widget: "markdown" }
+      - { label: "File", name: "file", widget: "file", required: false, media_library: { config: { multiple: true } } }
+      - { label: "URL / Link (required)", name: "url", widget: "string" }
+      - { label: "Featured Image", name: "image", widget: "image", required: false, media_library: { config: { multiple: false } } }
+      - { label: "Featured Image Description", name: "image_description", widget: "string" }
